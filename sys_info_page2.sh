@@ -1,12 +1,18 @@
 #!/bin/bash
-# Program to output a system information pageecho "<html>
+# Program to output a system information pageecho
+#if you create the title= then it will change throughout the script 
+
+title="Systems Information Report
+echo  "<html>
 <head>
-<title>System Information Report</title>
+<title>$title </title>
 </head>
 <body>
-<h1>System Information Report</h1>
+<h1>$title</h1>
 </body>
 </html>"
+
+
 
 <html>
 <head>
